@@ -6,6 +6,7 @@ use PPI;
 my ($base_path, $module) = @ARGV;
 unless($module) {
 	print "Usage: $0 base_path module_path\n";
+	print " - we suppose all base modules are in base_path\n";
 	exit;
 }
 
